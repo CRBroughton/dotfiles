@@ -1,0 +1,8 @@
+[user]
+	name = CRBroughton
+	email = crbroughton@posteo.uk
+	signingkey = A28B475638A29DA4ACB36D69B53E1BC28B18FC17
+[init]
+	defaultBranch = master
+[commit]
+	gpgsign = true
