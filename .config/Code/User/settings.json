@@ -1,0 +1,13 @@
+{
+    "workbench.colorTheme": "Pop Cosmic",
+    "workbench.iconTheme": "vscode-icons",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "npm.packageManager": "pnpm",
+    "npm.enableRunFromFolder": true,
+    "terminal.external.linuxExec": "gnome-terminal",
+    "git.autofetch": true,
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.linkedEditing": true
+}
