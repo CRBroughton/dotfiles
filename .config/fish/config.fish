@@ -7,4 +7,7 @@ end
 [ -f ~/.config/tabtab/fish/__tabtab.fish ]; and . ~/.config/tabtab/fish/__tabtab.fish; or true
 # aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+# variables
+# factorio wayland support
+set -Ux SDL_VIDEODRIVER wayland
 starship init fish | source
