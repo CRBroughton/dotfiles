@@ -9,5 +9,7 @@
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "artisan.docker.enabled": true,
+    "artisan.docker.command": " docker compose run --rm php"
 }
