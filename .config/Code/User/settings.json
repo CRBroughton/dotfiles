@@ -11,5 +11,16 @@
     "editor.fontWeight": "400",
     "editor.linkedEditing": true,
     "artisan.docker.enabled": true,
-    "artisan.docker.command": " docker compose run --rm php"
+    "artisan.docker.command": " docker compose run --rm php",
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+    "go.toolsManagement.autoUpdate": true,
+    "editor.inlayHints.enabled": "on",
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.rangeVariableTypes": true
 }
