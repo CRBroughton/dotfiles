@@ -22,5 +22,7 @@
     "go.inlayHints.assignVariableTypes": true,
     "go.inlayHints.compositeLiteralTypes": true,
     "go.inlayHints.constantValues": true,
-    "go.inlayHints.rangeVariableTypes": true
+    "go.inlayHints.rangeVariableTypes": true,
+    "editor.wordWrap": "on",
+    "editor.inlineSuggest.enabled": true
 }

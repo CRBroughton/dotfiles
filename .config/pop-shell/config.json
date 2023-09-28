@@ -23,6 +23,32 @@
     {
       "class": "Steam",
       "title": "Kerbal Space Program - Steam"
+    },
+    {
+      "class": "com.obsproject.Studio",
+      "title": "Windowed Projector (Preview)"
+    },
+    {
+      "class": "com.obsproject.Studio"
+    },
+    {
+      "class": "Albion Online Launcher"
+    },
+    {
+      "class": "XIVLauncher.Core",
+      "title": "XIVLauncher 1.0.3.0 (c2e02fd)"
+    },
+    {
+      "class": "XIVLauncher.Core"
+    },
+    {
+      "class": "live.euw.exe"
+    },
+    {
+      "class": "riotclientux.exe"
+    },
+    {
+      "class": "leagueclientux.exe"
     }
   ],
   "skiptaskbarhidden": [],
