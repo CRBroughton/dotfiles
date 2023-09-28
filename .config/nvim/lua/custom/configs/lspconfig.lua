@@ -29,3 +29,9 @@ lspconfig.eslint.setup({
         mode = "all"
       },
 })
+
+lspconfig.tailwindcss.setup({
+  on_attach = on_attach,
+  capabilities = capabilities,
+  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue'}
+})
