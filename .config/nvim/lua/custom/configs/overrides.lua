@@ -15,6 +15,7 @@ M.mason = {
         "typescript-language-server",
         "vue-language-server",
         "tailwindcss-language-server",
+        "vscode-eslint-language-server",
         "gopls",
     }
 }
