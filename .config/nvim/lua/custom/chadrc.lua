@@ -6,6 +6,4 @@ local M = {}
 
 M.ui = { theme = 'radium' }
 M.plugins = 'custom.plugins'
-M.mason = mason
-M.treesitter = treesitter
 return M
