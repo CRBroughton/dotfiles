@@ -3,6 +3,7 @@ local M = {}
 M.treesitter = {
     ensure_installed = {
         "lua",
+        "vue",
         "typescript",
         "tailwind",
         "go",
@@ -15,7 +16,7 @@ M.mason = {
         "typescript-language-server",
         "vue-language-server",
         "tailwindcss-language-server",
-        "vscode-eslint-language-server",
+        "eslint-lsp",
         "gopls",
     }
 }
