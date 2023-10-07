@@ -11,4 +11,6 @@ alias vgit='SDL_VIDEODRIVER=x11 gource'
 # variables
 # factorio wayland support
 set -Ux SDL_VIDEODRIVER wayland
+# initialise Starship Terminal
 starship init fish | source
+
