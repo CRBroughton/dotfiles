@@ -24,7 +24,7 @@
     "go.inlayHints.rangeVariableTypes": true,
     "editor.wordWrap": "on",
     "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Elixir Theme No Italics Less Dark 2",
+    "workbench.colorTheme": "Pop Cosmic",
     "vsicons.dontShowNewVersionMessage": true,
     "window.zoomLevel": 1,
     "elixirLS.fetchDeps": true,
