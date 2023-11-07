@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Pop Cosmic",
     "workbench.iconTheme": "vscode-icons",
     "terminal.integrated.defaultProfile.linux": "fish",
     "npm.packageManager": "pnpm",
@@ -24,5 +23,13 @@
     "go.inlayHints.constantValues": true,
     "go.inlayHints.rangeVariableTypes": true,
     "editor.wordWrap": "on",
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "workbench.colorTheme": "Elixir Theme No Italics Less Dark 2",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1,
+    "elixirLS.fetchDeps": true,
+    "elixirLS.autoBuild": true,
+    "elixirLS.dialyzerEnabled": true,
+    "elixirLS.dialyzerFormat": "dialyzer",
+    "elixirLS.suggestSpecs": true,
 }
