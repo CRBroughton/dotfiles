@@ -32,4 +32,7 @@
     "elixirLS.dialyzerEnabled": true,
     "elixirLS.dialyzerFormat": "dialyzer",
     "elixirLS.suggestSpecs": true,
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
 }
