@@ -45,10 +45,7 @@
       "class": "live.euw.exe"
     },
     {
-      "class": "riotclientux.exe"
-    },
-    {
-      "class": "leagueclientux.exe"
+      "class": "love"
     }
   ],
   "skiptaskbarhidden": [],

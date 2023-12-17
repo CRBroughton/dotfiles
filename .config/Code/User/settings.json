@@ -35,4 +35,8 @@
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
+    "git.openRepositoryInParentFolders": "always",
+    "pixelbyte.love2d.path": "/usr/bin/love",
+    "pixelbyte.love2d.revealStatus": true,
+    "pixelbyte.love2d.runOnSave": true,
 }
