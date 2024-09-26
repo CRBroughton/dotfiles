@@ -1,19 +1,34 @@
 {
+    // UI & Theme Settings
     "workbench.iconTheme": "vscode-icons",
-    "terminal.integrated.defaultProfile.linux": "fish",
-    "npm.packageManager": "pnpm",
-    "npm.enableRunFromFolder": true,
-    "terminal.external.linuxExec": "gnome-terminal",
-    "git.autofetch": true,
+    "workbench.colorTheme": "Pop Cosmic",
+    "window.zoomLevel": 1,
     "editor.fontFamily": "'FiraCode Nerd Font', monospace",
     "editor.fontLigatures": true,
     "editor.fontWeight": "400",
-    "editor.linkedEditing": true,
     "editor.lineNumbers": "relative",
+    "editor.wordWrap": "on",
+    "editor.inlineSuggest.enabled": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.stickyScroll.enabled": false,
+
+    // Terminal Settings
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.external.linuxExec": "gnome-terminal",
+
+    // Git Settings
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "always",
+
+    // NPM Settings
+    "npm.packageManager": "pnpm",
+    "npm.enableRunFromFolder": true,
+
+    // PHP Artisan Settings
     "artisan.docker.enabled": true,
-    "artisan.docker.command": " docker compose run --rm php",
-    "svelte.enable-ts-plugin": true,
-    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+    "artisan.docker.command": "docker compose run --rm php",
+
+    // Go Language Settings
     "go.toolsManagement.autoUpdate": true,
     "editor.inlayHints.enabled": "on",
     "go.inlayHints.compositeLiteralFields": true,
@@ -23,29 +38,37 @@
     "go.inlayHints.compositeLiteralTypes": true,
     "go.inlayHints.constantValues": true,
     "go.inlayHints.rangeVariableTypes": true,
-    "editor.wordWrap": "on",
-    "editor.inlineSuggest.enabled": true,
-    "workbench.colorTheme": "Pop Cosmic",
-    "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 1,
+
+    // Svelte Settings
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+
+    // Elixir Settings
     "elixirLS.fetchDeps": true,
     "elixirLS.autoBuild": true,
     "elixirLS.dialyzerEnabled": true,
     "elixirLS.dialyzerFormat": "dialyzer",
     "elixirLS.suggestSpecs": true,
-    "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
-    },
-    "git.openRepositoryInParentFolders": "always",
+
+    // Playwright Settings
+    "playwright.reuseBrowser": false,
+
+    // LOVE2D Settings
     "pixelbyte.love2d.path": "/usr/bin/love",
     "pixelbyte.love2d.revealStatus": true,
     "pixelbyte.love2d.runOnSave": true,
-    "editor.stickyScroll.enabled": false,
-    "playwright.reuseBrowser": false,
-    "editor.unicodeHighlight.ambiguousCharacters": false,
+
+    // Prisma Settings
     "prisma.showPrismaDataPlatformNotification": false,
+
+    // C++ Language Settings
     "C_Cpp.inlayHints.autoDeclarationTypes.enabled": true,
     "[cpp]": {
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
+    },
+
+    // Vue.js Settings
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
     }
 }
