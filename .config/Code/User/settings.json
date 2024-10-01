@@ -70,5 +70,10 @@
     // Vue.js Settings
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
-    }
+    },
+
+    // Tailwind/CVA Settings
+    "tailwindCSS.experimental.classRegex": [
+        ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+      ]
 }
