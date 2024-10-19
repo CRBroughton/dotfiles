@@ -11,6 +11,14 @@ alias vgit='SDL_VIDEODRIVER=x11 gource'
 # variables
 # factorio wayland support
 set -Ux SDL_VIDEODRIVER wayland
+
+# Setup Volta
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
+# asdf - elixir and erlang
+source ~/.asdf/asdf.fish
+
 # initialise Starship Terminal
 starship init fish | source
 set -gx VOLTA_HOME "$HOME/.volta"
