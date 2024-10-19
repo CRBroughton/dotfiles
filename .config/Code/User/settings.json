@@ -67,13 +67,24 @@
         "editor.formatOnSave": true
     },
 
+    // Python Settings
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.typeCheckingMode": "strict",
+
     // Vue.js Settings
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar"
     },
 
+    //Playwright Settings
+    "playwright.showTrace": false,
+
     // Tailwind/CVA Settings
     "tailwindCSS.experimental.classRegex": [
         ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-      ]
+    ]
 }
