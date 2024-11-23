@@ -86,5 +86,8 @@
     // Tailwind/CVA Settings
     "tailwindCSS.experimental.classRegex": [
         ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-    ]
+    ],
+    "[lua]": {
+        "editor.defaultFormatter": "sumneko.lua"
+    }
 }
