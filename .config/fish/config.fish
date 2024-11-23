@@ -8,6 +8,7 @@ end
 # aliases
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vgit='SDL_VIDEODRIVER=x11 gource'
+alias stmux='tmux new-session \; split-window -h \; split-window -v \; attach'
 # variables
 # factorio wayland support
 set -Ux SDL_VIDEODRIVER wayland
