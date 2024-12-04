@@ -21,6 +21,17 @@
     "light": "One Light",
     "dark": "Catppuccin Mocha"
   },
+  "terminal": {
+    "shell": {
+      "program": "fish"
+    }
+  },
+  "auto_install_extensions": {
+    "html": true,
+    "elixir": true,
+    "vue": true,
+    "lua": true
+  },
   "languages": {
     "JavaScript": {
       "format_on_save": {
