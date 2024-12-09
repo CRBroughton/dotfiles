@@ -11,6 +11,8 @@
   "ui_font_family": "FiraCode Nerd Font Mono",
   "buffer_font_weight": 400,
   "soft_wrap": "editor_width",
+  "tab_size": 2,
+  "hard_tabs": null,
   "buffer_font_features": {
     "liga": true
   },
@@ -32,38 +34,38 @@
     "vue": true,
     "lua": true
   },
+  "formatter": "language_server",
   "languages": {
     "JavaScript": {
-      "format_on_save": {
-        "external": {
-          "command": "prettier",
-          "arguments": ["--stdin-filepath", "{buffer_path}"]
+      "formatter": {
+        "code_actions": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
         }
-      },
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
       }
     },
     "TypeScript": {
-      "format_on_save": {
-        "external": {
-          "command": "prettier",
-          "arguments": ["--stdin-filepath", "{buffer_path}"]
+      "formatter": {
+        "code_actions": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
         }
-      },
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
       }
     },
     "Vue.js": {
-      "format_on_save": {
-        "external": {
-          "command": "prettier",
-          "arguments": ["--stdin-filepath", "{buffer_path}"]
+      "formatter": {
+        "code_actions": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
         }
-      },
-      "code_actions_on_format": {
-        "source.fixAll.eslint": true
+      }
+    },
+    "TSX": {
+      "formatter": {
+        "code_actions": {
+          "source.fixAll.eslint": true,
+          "source.organizeImports": true
+        }
       }
     }
   }
